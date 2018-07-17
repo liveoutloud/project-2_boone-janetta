@@ -1,0 +1,27 @@
+// Form Elements Stylesheet
+// ========================================
+
+// Basic Form Input Styling
+input[type=text] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid $dark;
+    border-radius: 4px;
+    color: $dark;
+}
+
+#input_error[type=text] {
+    border: 2px solid $error;
+}
+
+// Select Form Input Styling
+select {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 45%;
+    padding: 25px;
+    border: none;
+    border-radius: 4px;
+}

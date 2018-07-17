@@ -1,0 +1,57 @@
+// Button Component Stylesheet
+// ========================================
+
+.button {
+
+  &--primary {
+      display:block;
+      margin: auto;
+      width: 20%;
+      padding: 15px;
+      font-size: 25px;
+      border-radius: 17px;
+      background-color: $teal;
+      color: $white;
+      @include media($small) {
+          font-size: 15px;
+      }
+
+    &:hover {
+        color: $golden;
+        background-color: #2a393e;
+    }
+  }
+
+  &--secondary {
+      display:block;
+      margin: auto;
+      width: 20%;
+      padding: 15px;
+      font-size: 25px;
+      border-radius: 17px;
+      background-color: $turquoise;
+      color: $white;
+      @include media($small) {
+          font-size: 15px;
+      }
+
+    &:hover {
+        color: $dark;
+        background-color: #71b5af;
+    }
+  }
+
+  &--disabled {
+      display:block;
+      margin: auto;
+      width: 20%;
+      padding: 15px;
+      font-size: 25px;
+      border-radius: 17px;
+      background-color: #d3d3d3;
+      color: $white;
+      @include media($small) {
+          font-size: 15px;
+      }
+  }
+}

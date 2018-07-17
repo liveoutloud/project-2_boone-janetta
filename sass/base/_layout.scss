@@ -1,0 +1,71 @@
+// Base Layout Stylesheet
+// This is where your layout of the project will go
+// ========================================
+
+ .body {
+     text-align: center;
+ }
+
+.header__nav__ul--item {
+    padding: 20px;
+    display: flex;
+    display: inline-block;
+    font-size: 25px;
+}
+
+ .header {
+     text-align: center;
+     margin-top: 25px;
+  }
+
+.main {
+  padding: $spacer-lg;
+
+  &__section {
+    margin: $spacer-lg $reset-0;
+
+    &--index {
+
+    }
+  }
+}
+
+.item-container {
+    margin: $spacer-m $reset-0;
+}
+
+input {
+    margin-top: 10px;
+    border-style: solid, 5px;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.x-alert-boxes {
+    float: right;
+}
+
+#not-allowed {
+    cursor: not-allowed;
+}
+
+.image_colors {
+    margin: 15px;
+}
+
+.secondary_image_colors, .accent_image_colors {
+    width: 200px;
+    margin: 25px;
+}
+
+.footer__p {
+    text-align: center;
+    font-size: 15px;
+    color: $teal;
+}
+
+.footer {
+    padding: $spacer-lg;
+    background-color: $gray;
+}

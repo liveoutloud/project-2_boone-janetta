@@ -1,0 +1,66 @@
+// Card Component stylesheet
+// ====================================
+
+.card {
+    padding: $spacer-m;
+    background-color: #d3d3d3;
+    border: 1px solid $dark;
+    width: 250px;
+    display: inline-block;
+}
+
+.card__teal {
+    padding: $spacer-m;
+    background-color: $teal;
+    border: 1px solid $dark;
+    height: 150px;
+}
+
+.card__turquoise {
+    padding: $spacer-m;
+    background-color: $turquoise;
+    border: 1px solid $dark;
+    height: 150px;
+}
+
+.card__golden  {
+    padding: $spacer-m;
+    background-color: $golden;
+    border: 1px solid $dark;
+    height: 150px;
+}
+
+.card__error {
+    padding: $spacer-m;
+    background-color: $error;
+    border: 1px solid $dark;
+    height: 150px;
+}
+
+.card__success {
+    padding: $spacer-m;
+    background-color: $success;
+    border: 1px solid $dark;
+    height: 150px;
+}
+
+.card__dark  {
+    padding: $spacer-m;
+    background-color: $dark;
+    border: 1px solid $white;
+    height: 150px;
+}
+
+.card__white {
+    padding: $spacer-m;
+    background-color: $white;
+    border: 1px solid $dark;
+    height: 150px;
+}
+
+.card__gray {
+    padding: $spacer-m;
+    background-color: $gray;
+    border: 1px solid $dark;
+    height: 150px;
+}
