@@ -3,32 +3,24 @@
 
 .alert {
 
-  &--error {
-      padding: 10px;
-      background-color: $error;
-      margin-bottom: 15px;
-  }
+      &--white {
+            color: $white;
+            text-align: left;
+            font-weight: bold;
+        }
 
-  &--success {
-      padding: 10px;
-      background-color: $success;
-      margin-bottom: 15px;
-  }
+      &--error {
+          padding: $small-spacer;
+          background-color: $error;
+      }
 
-  &--notification {
-      padding: 10px;
-      background-color: $gray;
-      margin-bottom: 15px;
-  }
-}
+      &--success {
+          padding: $small-spacer;
+          background-color: $success;
+      }
 
-.alert--p {
-    text-align: left;
-    font-weight: bold;
-
-    &-white {
-        color: $white;
-        text-align: left;
-        font-weight: bold;
-    }
+      &--notification {
+          padding: $small-spacer;
+          background-color: $gray;
+      }
 }

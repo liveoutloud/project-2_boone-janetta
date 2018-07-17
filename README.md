@@ -1,12 +1,27 @@
-# Project 1 - Part 2
+# Project 2 - Reel Life
 
-### Links
+#### Link to repository
+[github link](https://github.com/liveoutloud/project-2_boone-janetta)
+
+#### Link to website
+[Website Link](www.thisisyourwebsite.com)
+<!--TODO: update website link for Project 2 - Part 3-->
+
+#### Instructions on how to view
+1. `git clone` the repository to view it locally.
+2. Use `sass --watch sass:css --style compressed` to get sass started.
+
 ---
-[My repo](https://github.com/liveoutloud/pr_1-part-2_boone-janetta)
 
-[My site](http://janettaboone.com/pr_1-part-2_boone-janetta/)
+## Project 2 - Part 2
 
-### References
+#### Resources
+- Grading feedback.
+
+#### Deductions
+- I have read the deductions/rubric.
+
+#### Comments
+- None at this time.
+
 ---
-- I referenced [W3Schools](https://www.w3schools.com/) for coding issues I ran into.
-- I referenced [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for coding with Flexbox.
