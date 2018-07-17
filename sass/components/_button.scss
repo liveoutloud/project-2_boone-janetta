@@ -2,14 +2,14 @@
 // ========================================
 
 .button {
+    padding: $medium-spacer;
+    width: 20%;
+    margin: auto;
+    display: block;
+    font-size: 25px;
+    border-radius: 17px;
 
   &--primary {
-      display:block;
-      margin: auto;
-      width: 20%;
-      padding: 15px;
-      font-size: 25px;
-      border-radius: 17px;
       background-color: $teal;
       color: $white;
 
@@ -24,12 +24,6 @@
   }
 
   &--secondary {
-      display:block;
-      margin: auto;
-      width: 20%;
-      padding: 15px;
-      font-size: 25px;
-      border-radius: 17px;
       background-color: $turquoise;
       color: $white;
 
@@ -44,12 +38,6 @@
   }
 
   &--disabled {
-      display:block;
-      margin: auto;
-      width: 20%;
-      padding: 15px;
-      font-size: 25px;
-      border-radius: 17px;
       background-color: #d3d3d3;
       color: $white;
 

@@ -3,6 +3,7 @@
 
 .chip {
     background-color: #d3d3d3;
+    font-family: $secondary-font;
     width: 210px;
     border-radius: 18px;
     display: flex;
@@ -15,12 +16,10 @@
         color: $dark;
         font-weight: bold;
         background-color: $golden;
-        font-family: $secondary-font;
         border-radius: 50px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        margin: 15px;
     }
 
     &__text-container {
@@ -31,6 +30,5 @@
 
     &__text-title {
         font-weight: bold;
-        font-family: $secondary-font;
     }
  }
