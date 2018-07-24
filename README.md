@@ -4,7 +4,7 @@
 [github link](https://github.com/liveoutloud/project-2_boone-janetta)
 
 #### Link to website
-[Website Link]()
+[Website Link](http://janettaboone.com/project-2_boone-janetta/)
 <!--TODO: update website link for Project 2 - Part 4-->
 
 #### Instructions on how to view
@@ -21,5 +21,5 @@
 - I have read the deductions/rubric.
 
 #### Comments
-- I made progress this week by getting my home page content added, but something is broken and I can't get any of my styles to show. I will make progress on this issue by the next due date.
+- I made progress this week by getting my home page content added.  As soon as I figure out what is broken (preventing my styles from displaying), I will make progress by the next due date.  Thanks!
 ---
