@@ -5,11 +5,7 @@
 
 #### Link to website
 [Website Link](http://janettaboone.com/project-2_boone-janetta/)
-<!--TODO: update website link for Project 2 - Part 4-->
-
-#### Instructions on how to view
-1. `git clone` the repository to view it locally.
-2. Use `sass --watch sass:css --style compressed` to get sass started.
+<!--TODO: update website link for Project 2 - Part 5-->
 
 ---
 
@@ -21,5 +17,5 @@
 - I have read the deductions/rubric.
 
 #### Comments
-- I made progress this week by getting my home page content added.  As soon as I figure out what is broken (preventing my styles from displaying), I will make progress by the next due date.  Thanks!
+- I made progress this week by getting my form coded and getting my styles linked.  I feel good about my Contact page.
 ---
