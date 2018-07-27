@@ -7,24 +7,54 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
         <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
     </head>
-    <body class="body">
+    <body class="body" id="home">
         <header class="header">
             <img class="header__logo" src="images/logo.png" alt="Reel Life Logo" class="header__logo" />
         </header>
         <nav class="header__nav">
             <ul class="header__nav__ul">
-              <li class="header__nav__ul--item">
-                <a href="index.html" class="btn btn-$primary-button">Home</a>
-              </li>
-               <li class="header__nav__ul--item">
-                <a href="About.html">About</a>
-              </li>
-               <li class="header__nav__ul--item">
-                <a href="contact.html">Contact</a>
-              </li>
+                <li class="header__nav__ul--item"><a href="#home" class="btn btn-$primary-button">Home</a></li>
+                <li class="header__nav__ul--item"><a href="#about" class="btn btn-$primary-button">About</a></li>
+                <li class="header__nav__ul--item"><a href="#contact" class="btn btn-$primary-button">Contact</a></li>
             </ul>
         </nav>
         <!--HOME section -->
+        <main class="main">
+            <div class="guide__section-group">
+                <button class="button--primary modal__trigger-btn">Click for Modal</button>
+                    <div class="modal" aria-hidden="true">
+                        <div class="modal__overlay">
+                            <div class="modal__container">
+                                <div class="modal__body">
+                                <a href="#" role="button" class="modal__close">
+                                    <img src="images/icon-close.svg"/>
+                                </a>
+                                <header class="modal__header">
+                                    <h3 class="title">Login</h3>
+                                    <p class="modal-intro">Fill out your user name to login!</p>
+                                </header>
+                                <form>
+                                    <input name="email" placeholder="j.boone@ufl.edu" type="email" class="modal__input" />
+                                    <input name="password" placeholder="password" type="password" class="input modal__input" />
+                              </form>
+                          <div>
+                            <p class="modal-content">Modal Content goes here.</p>
+                            <div class="modal__actions">
+                              <ul class="modal__actions-list">
+                                <li class="modal__actions-item">
+                                  <button class="button--default button--full modal__close">Submit</button>
+                                </li>
+                                <li class="modal__actions-item">
+                                  <button class="button--danger button--full">Cancel</button>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         <section class="section__home">
             <h1>Reel Life</h1>
             <img src="images/background_watercolor.png" alt="Background watercolor brushstrokes" />
@@ -36,18 +66,44 @@
             <h4>Already making memories with us? Log in</h4>
         </section>
         <!--ABOUT section -->
-        <section class="section__about">
+        <section class="section__about" id="about">
 
         </section>
         <!--CONTACT section -->
-        <section class="section__contact">
-
+        <section class="section__contact" id="contact">
+            <form id="form">
+                 <!--name, phone, email, select, message-->
+                 <label for="name" class="input__label">Name</label>
+                 <input type="text" name="name" id="name" placeholder="name" required class="input"/>
+                 <label for="email">Email</label>
+                 <input type="email" name="email" id="email" placeholder="email" required class="input" />
+                 <label for="phone" class="input__label">Phone</label>
+                 <input type="tel" name="phone" id="phone" placeholder="phone" required class="input"  />
+                 <label class="input__label" for="method">Shipping</label>
+                 <select name="method" id="method">
+                   <option selected>Please select your shipping speed:</option>
+                     <option value="overnight">Overnight</option>
+                     <option value="Priority">Priority 1-2 days</option>
+                     <option value="7-10 business days">7-10 business days</option>
+                   </option>
+                 </select>
+                 <!-- Reset button -->
+                 <input class="button--secondary" value="reset" type="reset" id="reset" />
+                 <!-- Submit Disabled on HTML --> 
+                 <input class="button--disabled" value="Submit" type="submit" id="submit-html"/>  
+                 <!-- Submit Disabled on Javascript--> 
+                 <input class="button--primary" value="Submit" type="submit" id="submit-js"/>
+               </form>
         </section>
+    </main>
         <footer class="footer">
             <p class="footer__p">Copyright &copy; 2018 | Reel Life</p>
             <img src="images/facebookicon.png" alt="Facebook" width=30px />
             <img src="images/instaicon.png" alt="Instagram" width=30px />
             <img src="images/youtube.png" alt="Youtube" width=30px />
         </footer>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+        <script src="js/modal.js"></script>
     </body>
 </html>
