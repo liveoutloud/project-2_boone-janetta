@@ -20,3 +20,15 @@
         color: $teal;
     }
 }
+
+.section__about {
+    background-color: #bebdc0;
+}
+
+.section__testimonial {
+    background-color: #cddbdb;
+
+    &--backgroundimage {
+        z-index: -10;
+    }
+}
