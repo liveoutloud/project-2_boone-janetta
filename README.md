@@ -17,5 +17,5 @@
 - I have read the deductions/rubric.
 
 #### Comments
-- I made progress this week by getting my form coded and getting my styles linked.  I feel good about my Contact page.
+- Styles are now linked, and I made progress this week by coding form, styling nav, adding all sections added for single-scroll site, css grid, and added smooth scroll.
 ---
