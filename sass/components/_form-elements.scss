@@ -2,14 +2,16 @@
 // ========================================
 
 // Basic Form Input Styling
-input[type=text] {
+input {
     width: 45%;
+    margin: auto;
     padding: 12px 20px;
-    margin: 8px 0;
+    //margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid $dark;
     border-radius: 4px;
     color: $dark;
+    display: block;
 }
 
 #input_error[type=text] {
