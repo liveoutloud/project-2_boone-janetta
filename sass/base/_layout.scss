@@ -3,44 +3,67 @@
 
  .body {
      text-align: center;
+     background-color: $white;
  }
 
  .header {
      text-align: center;
      margin-top: $spacer-lg;
-  }
+     min-width: 320px;
 
-  nav {
-  	padding: $spacer-m;
-  	text-align: center;
-  	/*position: fixed;*/
-  }
-  nav ul {
-  	list-style-type: none;
-  }
-  nav ul li {
-  	display: inline;
-  	font-family: $secondary-font;
-  	font-weight: bold;
-  	font-size: 18px;
-  }
+     &__nav {
+     padding: $spacer-s;
+    }
 
-  nav ul li a:link, nav ul li a:visited {
-  	color: $teal;
-  	text-decoration: none;
-  	padding: 10px 30px;
-  	border-radius: 300px;
-  }
+    &__nav__ul {
+        list-style-type: none;
+    }
 
-  nav ul li a:hover, nav ul li a:active {
-  	color: $golden;
-  	text-decoration: none;
-  	background-color: $gray;
-  }
+    &__nav__ul--item {
+        font-family: $secondary-font;
+        font-size: 18px;
+        border: 1px solid $teal;
+        border-radius: 5px;
+        padding: $spacer-xs;
+        margin: $spacer-s;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+}
+
+.section {
+    min-width: 320px;
+
+    &__home--p {
+        color: $teal;
+        padding: $spacer-m;
+    }
+
+    &__home--mobile {
+        width: 365px;
+    }
+
+    &__home {
+        margin-bottom: $spacer-lg;
+    }
+
+    &__about {
+        background-color: #bebdc0;
+    }
+
+    &__about--uploadPage {
+        width: 200px;
+    }
+
+    &__testimonial {
+        background-color: #cddbdb;
+    }
+}
 
 .footer {
     padding: $spacer-lg;
     background-color: $gray;
+    min-width: 320px;
 
     .footer__p {
         text-align: center;
@@ -52,16 +75,4 @@
 .input__label {
     font-family: $primary-font;
     color: $teal;
-}
-
-.section__about {
-    background-color: #bebdc0;
-}
-
-.section__testimonial {
-    background-color: #cddbdb;
-
-    &--backgroundimage {
-        z-index: -10;
-    }
 }

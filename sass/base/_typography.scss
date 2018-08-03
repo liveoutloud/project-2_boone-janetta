@@ -1,5 +1,4 @@
 // Base Typography Stylesheet
-// This is where your base typography will go
 // ========================================
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,37 +11,41 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 27px;
+    color: $golden;
+    margin: $spacer-m;
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 23px;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 20px;
+    padding-bottom: $spacer-m;
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 h6 {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 p {
     color: $dark;
     font-family: $secondary-font;
-    padding: 15px;
+    padding: $spacer-m;
 }
 
 a {
 
   &:hover, &:active {
-      color: $teal;
       background-color: $gray;
+      border-radius: 5px;
       text-decoration: none;
+
   }
 
   &:visited, &:link {

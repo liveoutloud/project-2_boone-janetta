@@ -7,67 +7,48 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
         <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
     </head>
-    <body class="body" id="home">
+    <body class="body" id="home" background="images/background_watercolor.png" alt="watercolor background image">
         <header class="header">
             <img class="header__logo" src="images/logo.png" alt="Reel Life Logo" class="header__logo" />
+            <nav class="header__nav">
+                <ul class="nav__ul">
+                    <li class="header__nav__ul--item"><a href="#home">Home</a></li>
+                    <li class="header__nav__ul--item"><a href="#about">About</a></li>
+                    <li class="header__nav__ul--item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
-        <nav class="header__nav">
-            <ul class="header__nav__ul">
-                <li class="header__nav__ul--item"><a href="#home" class="btn btn-$primary-button">Home</a></li>
-                <li class="header__nav__ul--item"><a href="#about" class="btn btn-$primary-button">About</a></li>
-                <li class="header__nav__ul--item"><a href="#contact" class="btn btn-$primary-button">Contact</a></li>
-            </ul>
-        </nav>
         <!--HOME section -->
         <main class="main">
-            <div class="guide__section-group">
-                <button class="button--primary modal__trigger-btn">Click for Modal</button>
-                    <div class="modal" aria-hidden="true">
-                        <div class="modal__overlay">
-                            <div class="modal__container">
-                                <div class="modal__body">
-                                <a href="#" role="button" class="modal__close">
-                                    <img src="images/x-alert-boxes.svg" width="40px"/>
-                                </a>
-                                <header class="modal__header">
-                                    <h3 class="title">Login</h3>
-                                    <p class="modal-intro">Fill out your user name to login!</p>
-                                </header>
-                                <form>
-                                    <input name="email" placeholder="yourname@email.com" type="email" class="modal__input" />
-                                    <input name="password" placeholder="password" type="password" class="input modal__input" />
-                              </form>
-                          <div>
-                            <p class="modal-content">Modal content. Sign Up. Log In. Reel Life will never share or sell your personal information. Please see our privacy policy.</p>
-                            <div class="modal__actions">
-                              <ul class="modal__actions-list">
-                                <li class="modal__actions-item">
-                                  <button class="button--default button--full modal__close">Submit</button>
-                                </li>
-                                <li class="modal__actions-item">
-                                  <button class="button--danger button--full">Cancel</button>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+            <section class="section__home">
+                <h1>Reel Life</h1>
+                <h2>You make the memories, we'll keep them for you!</h2>
+                <p class="section__home--p">Simply upload your videos to the app. Each time you hit 60 vids, we
+                merge them together and ship you a copy. So keep living your Reel Life, and we'll take care of the rest!</p>
+                <img src="images/mobile.png" alt="Image of mobile app" class="section__home--mobile"/>
+                <h3>Ready to get started?</h3>
+                <h4>Already making memories with us?</h4>
+            <button class="button--primary" id="myBtn">Get REEL</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Sign-in</h2>
+                        <h2>Log-in</h2>
                     </div>
-                  </div>
+                    <div class="modal-body">
+                        <p>some text</p>
+                        <p>some more text</p>
+                    </div>
+                    <div class="modal-footer">
+                        <p id="disclaimer_font">Reel Life will never share or sell your personal information. Please see our privacy policy.</p>
+                    </div>
                 </div>
-        <section class="section__home">
-            <h1>Reel Life</h1>
-            <img src="images/background_watercolor.png" alt="Background watercolor brushstrokes" />
-            <hr />
-            <h2>You make the memories, we'll keep them for you!</h2>
-            <p>Simply upload your videos to the app. Each time you hit 60 vids, we merge them together and ship you a copy. So keep living your Reel Life, and we'll take care of the rest!</p>
-            <img src="images/mobile.png" alt="Image of mobile app" />
-            <h3>Ready to get started?</h3>
-            <h4>Already making memories with us? Log in</h4>
+            </div>
         </section>
         <!--ABOUT section -->
         <section class="section__about" id="about">
-            <p>Future home of the about section.</p>
+            <img src="images/upload_page.png" alt="Mobile image" class="section__about--uploadPage" />
         </section>
         <!-- TESTIMONIAL section -->
         <section class="section__testimonial" id="testimonial">
@@ -132,9 +113,9 @@
             <img src="images/facebookicon.png" alt="Facebook" width=30px />
             <img src="images/instaicon.png" alt="Instagram" width=30px />
             <img src="images/youtube.png" alt="Youtube" width=30px />
-            <button class="btn btn-$primary-button"><a href=#home>Back to top</a></button>
-            <button class="btn btn-$primary-button"><a href="#about" class="primary-button">About</a></button>
-            <button class="btn btn-$primary-button"><a href="#contact" class="primary-button">Contact</a></button>
+            <button class="button--primary"><a href=#home>Back to top</a></button>
+            <button class="button--primary"><a href="#about">About</a></button>
+            <button class="button--primary"><a href="#contact">Contact</a></button>
         </ul></button>
         </footer>
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>

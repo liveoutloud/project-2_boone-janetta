@@ -11,9 +11,11 @@
   &--primary {
       background-color: $teal;
       color: $white;
+      padding: $spacer-s;
+      border-radius: 5px;
 
       @include media($small) {
-          font-size: 15px;
+          font-size: 20px;
       }
 
     &:hover {
