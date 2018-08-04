@@ -58,6 +58,7 @@
 
     &__testimonial {
         background-color: #cddbdb;
+        padding-bottom: $spacer-lg;
     }
 
     &__testimonial--p {
@@ -91,7 +92,6 @@
 .footer {
     padding: $spacer-lg;
     background-color: $gray;
-    min-width: 320px;
 
     .footer__p {
         padding: $spacer-s;
