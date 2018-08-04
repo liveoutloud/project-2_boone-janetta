@@ -27,9 +27,11 @@
   &--secondary {
       background-color: $turquoise;
       color: $white;
+      padding: $spacer-xs;
+      border-radius: 5px;
 
       @include media($small) {
-          font-size: 15px;
+          font-size: 20px;
       }
 
     &:hover {
@@ -41,9 +43,11 @@
   &--disabled {
       background-color: #d3d3d3;
       color: $white;
+      padding: $spacer-xs;
+      border-radius: 5px;
 
       @include media($small) {
-          font-size: 15px;
+          font-size: 20px;
       }
   }
 }
