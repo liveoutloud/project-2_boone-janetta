@@ -33,12 +33,17 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <span class="close">&times;</span>
-                        <h2>Sign-in</h2>
-                        <h2>Log-in</h2>
+                        <h3>Sign Up</h3>
                     </div>
                     <div class="modal-body">
-                        <p>some text</p>
-                        <p>some more text</p>
+                        <label for="name" class="input__label--modal">Username</label>
+                        <input type="text" name="name" id="username_modal" placeholder="username" required class="input"/>
+                        <label for="email" class="input__label--modal">Email</label>
+                        <input type="email" name="email" id="email_modal" placeholder="email" required class="input" />
+                        <label for="password" class="input__label--modal">Password</label>
+                        <input type="password" name="password" id="password_modal" placeholder="password" required class="input"  />
+                        <button class="modal-body--button">Sign up for REEL LIFE</button>
+                        <p>Or, use another account:</p>
                     </div>
                     <div class="modal-footer">
                         <p id="disclaimer_font">Reel Life will never share or sell your personal information. Please see our privacy policy.</p>
@@ -109,11 +114,11 @@
             <form id="form">
                  <!--name, phone, email, select, message-->
                  <label for="name" class="input__label">Name</label>
-                 <input type="text" name="name" id="name" placeholder="name" required class="input"/>
-                 <label for="email">Email</label>
-                 <input type="email" name="email" id="email" placeholder="email" required class="input" />
+                 <input class="input" type="text" name="name" id="name" placeholder="name" required class="input"/>
+                 <label for="email" class="input__label">Email</label>
+                 <input class="input" type="email" name="email" id="email" placeholder="email" required class="input" />
                  <label for="phone" class="input__label">Phone</label>
-                 <input type="tel" name="phone" id="phone" placeholder="phone" required class="input"  />
+                 <input class="input" type="tel" name="phone" id="phone" placeholder="phone" required class="input"  />
                  <label class="input__label" for="method">Shipping</label>
                  <select name="method" id="method">
                    <option selected>Please select your shipping speed:</option>
