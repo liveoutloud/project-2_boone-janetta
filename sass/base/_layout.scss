@@ -40,7 +40,7 @@
     }
 
     &__home--mobile {
-        width: 365px;
+        width: 100%;
     }
 
     &__home {
@@ -49,15 +49,43 @@
 
     &__about {
         background-color: #bebdc0;
+        padding: $spacer-m;
     }
 
     &__about--uploadPage {
-        width: 200px;
+        width: 70%;
     }
 
     &__testimonial {
         background-color: #cddbdb;
     }
+
+    &__testimonial--p {
+        z-index: -1;
+    }
+
+    &__testimonial--backgroundimage {
+        width: 100%;
+    }
+
+    &__contact {
+        padding-bottom: $spacer-xlg;
+    }
+}
+
+.text-overlay-container {
+    position: relative;
+    text-align: center;
+    color: $teal;
+    font-family: $primary-font;
+    font-size: 30px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer {
@@ -70,6 +98,11 @@
         font-size: 15px;
         color: $teal;
     }
+}
+
+.social_icon_container {
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 .input__label {

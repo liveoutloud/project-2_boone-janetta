@@ -2,13 +2,14 @@
 // ========================================
 
 .chip {
-    background-color: #d3d3d3;
+    background-color: #bebdc0;
     font-family: $secondary-font;
     width: 210px;
     border-radius: 18px;
     display: flex;
     align-items: center;
     margin: auto;
+    margin-bottom: $spacer-lg;
 
     &__avatar {
         width: 50px;
@@ -17,12 +18,14 @@
         font-weight: bold;
         background-color: $golden;
         border-radius: 50px;
+        margin-left: $spacer-s;
         display: inline-flex;
         align-items: center;
         justify-content: center;
     }
 
     &__text-container {
+        padding: $spacer-s;
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
