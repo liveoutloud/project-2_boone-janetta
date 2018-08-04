@@ -5,17 +5,17 @@
 
 #### Link to website
 [Website Link](http://janettaboone.com/project-2_boone-janetta/)
-<!--TODO: update website link for Project 2 - Part 5-->
 
 ---
 
-## Project 2 - Part 3
+## Project 2 - Part 5
 
 #### Resources
+- I referenced W3Schools and class recordings.
 
 #### Deductions
 - I have read the deductions/rubric.
 
 #### Comments
-- Styles are now linked, and I made progress this week by coding form, styling nav, adding all sections added for single-scroll site, css grid, and added smooth scroll.
+- About page content is now added and modal and form styled.  Need a second jquery plug-in, and need to take it from mobile-first (how it is now) up through RWD sizes.
 ---
