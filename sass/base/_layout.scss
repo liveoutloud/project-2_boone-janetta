@@ -94,6 +94,7 @@
     min-width: 320px;
 
     .footer__p {
+        padding: $spacer-s;
         text-align: center;
         font-size: 15px;
         color: $teal;
@@ -103,6 +104,10 @@
 .social_icon_container {
     display: inline-flex;
     justify-content: space-around;
+
+    &--item {
+        padding: $spacer-s;
+    }
 }
 
 .input__label {

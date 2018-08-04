@@ -5,13 +5,13 @@
     width: 20%;
     margin: auto;
     display: block;
-    font-size: 25px;
+    font-size: 15px;
     border-radius: 17px;
 
     &--primary {
       background-color: $teal;
       color: $white;
-      padding: $spacer-s;
+      padding: $spacer-xs;
       border-radius: 5px;
 
       @include media($small) {
