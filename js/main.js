@@ -18,3 +18,12 @@ $(function(){
     }
   });
 })
+
+
+//This event listener puts a box around the <h3> when it is moused-over.
+
+var hThree = document.getElementById( 'hThree' );
+
+hThree.addEventListener( 'mouseover', function() {
+  hThree.className = 'box';
+})

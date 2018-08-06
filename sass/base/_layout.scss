@@ -118,3 +118,11 @@
     font-family: $primary-font;
     color: $teal;
 }
+
+.box {
+  background-color: $turquoise;
+  border-radius: 5px;
+  width: auto;
+  padding: $spacer-xs;
+  margin-bottom: $spacer-s;
+}
