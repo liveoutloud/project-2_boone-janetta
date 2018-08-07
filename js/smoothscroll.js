@@ -1,4 +1,6 @@
 //First plug-in is SMOOTHSCROLL
+//SOURCE:  https://css-tricks.com/snippets/jquery/smooth-scrolling/
+
 $('a[href*="#"]')
 
   .not('[href="#"]')
