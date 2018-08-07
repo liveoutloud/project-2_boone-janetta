@@ -30,13 +30,13 @@
     }
 }
 
-//#input_error[type=text] {
-//    border: 2px solid $error;
-//}
-
 select {
     width: 100%;
     margin: auto;
+
+    @include media($medium) {
+        width: 30%;
+    }
 }
 
 #method {

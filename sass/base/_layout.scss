@@ -41,6 +41,10 @@
 
     &__home--mobile {
         width: 100%;
+
+        @include media($medium) {
+            width: 45%;
+        }
     }
 
     &__home {
@@ -54,6 +58,10 @@
 
     &__about--uploadPage {
         width: 70%;
+
+        @include media($medium) {
+            width: 30%;
+        }
     }
 
     &__testimonial {
@@ -126,4 +134,19 @@
   width: auto;
   padding: $spacer-xs;
   margin-bottom: $spacer-s;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [first] 100px [second] 100px [third] 100px [fourth];
+  grid-template-rows: [row1] 50px;
+}
+
+.grid-item {
+
+  &--3 {
+    grid-column-start: third;
+    grid-column-end: fourth;
+    grid-row-start: row1;
+  }
 }
