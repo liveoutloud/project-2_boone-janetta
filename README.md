@@ -28,6 +28,8 @@ I used Smooth Scroll on my single-scroll site.
 #### Custom jquery
 - Ready function calls the h4's in each article and adds a border in ABOUT section.
 
+#### HTML5 Outliner Link
+- [Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fjanettaboone.com%2Fproject-2_boone-janetta%2F)
 
 #### Deductions
 - I have read the deductions/rubric.
