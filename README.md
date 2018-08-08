@@ -16,8 +16,6 @@
 - Class recordings
 
 #### Plug-ins
-- [Lightbox](https://github.com/lokesh/lightbox2/blob/master/LICENSE)
-I used lightbox on my testimonials section for the customer images.
 - [Smoothscroll](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 I used Smooth Scroll on my single-scroll site.
 
