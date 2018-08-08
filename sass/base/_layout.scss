@@ -81,6 +81,11 @@
         padding-bottom: $spacer-xlg;
         background: linear-gradient(to bottom right, #71b5af, #bee9e2, #b8e3dc);
     }
+
+    &__contact--header {
+        margin-top: 0;
+        padding-top: $spacer-s;
+    }
 }
 
 .text-overlay-container {
@@ -110,7 +115,7 @@
         padding: $spacer-s;
         text-align: center;
         font-size: 15px;
-        color: $teal;
+        color: $white;
     }
 }
 
@@ -138,7 +143,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: [first] 100px [second] 100px [third] 100px [fourth];
+  grid-template-columns: [first] 33% [second] 33% [third] 33% [fourth];
   grid-template-rows: [row1] 50px;
 }
 

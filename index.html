@@ -91,39 +91,38 @@
                 <div class="centered">What our customers are saying!</div>
             </div>
             <div class="chip">
-             <div class="chip__avatar">
-                 TA
+                <div class="chip__avatar">
+                    TA
+                </div>
+                <div class="chip__text-container">
+                    <div class="chip__text-title">
+                        Todd Alexander
+                    </div>
+                    <div class="chip__text-description">
+                        Adventurer
+                    </div>
+                </div>
+            </div>
+         <!--</div>-->
+            <div class="chip">
+                <div class="chip__avatar">
+                    AP
+                </div>
+                <div class="chip__text-container">
+                    <div class="chip__text-title">
+                        Ashlee Parry
+                    </div>
+                    <div class="chip__text-description">
+                        Mom of 3
+                    </div>
+                </div>
              </div>
-             <div class="chip__text-container">
-                 <div class="chip__text-title">
-                     Todd Alexander
-                 </div>
-                 <div class="chip__text-description">
-                     Adventurer
-                 </div>
-             </div>
-         </div>
-         </div>
-         <div class="chip">
-             <div class="chip__avatar">
-                 AP
-             </div>
-             <div class="chip__text-container">
-                 <div class="chip__text-title">
-                     Ashlee Parry
-                 </div>
-                 <div class="chip__text-description">
-                     Mom of 3
-                 </div>
-             </div>
-         </div>
         </section>
         <!--CONTACT section -->
         <section class="section__contact" id="contact">
-            <h2>Contact Us</h2>
+            <h2 class="section__contact--header">Contact Us</h2>
             <p>Have questions?  We can't wait to help!</p>
             <form id="form">
-                 <!--name, phone, email, select, message-->
                  <label for="name" class="input__label">Name</label>
                  <input class="input" type="text" name="name" id="name" placeholder="name" required class="input"/>
                  <label for="email" class="input__label">Email</label>
@@ -138,10 +137,8 @@
                      <option value="7-10 business days">7-10 business days</option>
                  </option>
                  </select>
-                 <!-- Text Area -->
                  <label class="input__label" for="message">Message</label>
                  <textarea name="message" id="message" placeholder="Send us a message here" class="input" rows="5" required></textarea>
-                 <!-- Reset Button -->
                  <input class="button--secondary" value="Reset" type="reset" id="reset"/>
                  <!-- Submit Disabled on Javascript-->
                  <input class="button--disabled" value="Submit" type="submit" id="submit"/>

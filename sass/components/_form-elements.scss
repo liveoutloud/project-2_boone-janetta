@@ -13,15 +13,17 @@
     margin-bottom: $spacer-lg;
 
     &--modal {
-        width: 65%;
-        margin: auto;
+        @extend .input;
         padding: $spacer-xs;
+
+        /*width: 65%;
+        margin: auto;
         box-sizing: border-box;
         border: 1px solid $dark;
         border-radius: 5px;
         color: $dark;
         display:block;
-        margin-bottom: $spacer-lg;
+        margin-bottom: $spacer-lg;*/
     }
 
     &__label--modal {
@@ -31,7 +33,10 @@
 }
 
 select {
-    width: 100%;
+    width: 65%;
+    display: block;
+    border: 1px $dark solid;
+    height: 35px;
     margin: auto;
 
     @include media($medium) {
