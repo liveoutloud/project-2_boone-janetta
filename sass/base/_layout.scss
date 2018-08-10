@@ -141,6 +141,14 @@
   margin-bottom: $spacer-s;
 }
 
+.sign-up {
+    font-size: 11px;
+    padding: $spacer-xs;
+    border: dotted 1px black;
+    border-radius: 4px;
+    margin-top: $spacer-xs;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: [first] 33% [second] 33% [third] 33% [fourth];
@@ -149,9 +157,9 @@
 
 .grid-item {
 
-  &--3 {
-    grid-column-start: third;
-    grid-column-end: fourth;
-    grid-row-start: row1;
-  }
+    &--3 {
+        grid-column-start: third;
+        grid-column-end: fourth;
+        grid-row-start: row1;
+      }
 }

@@ -3,6 +3,7 @@
     <head>
         <title>Reel Life</title>
         <link href="css/main.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
         <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
         <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
@@ -26,6 +27,7 @@
                 <h2>You make the memories, we'll keep them for you!</h2>
                 <p class="section__home--p">Simply upload your videos to the app. Each time you hit 60 vids, we
                 merge them together and ship you a copy. So keep living your Reel Life, and we'll take care of the rest!</p>
+                <span class="tooltip" title="10% off your first order">We love new customers!</span>
                 <img src="images/mobile.png" alt="Image of mobile app" class="section__home--mobile"/>
                 <h3 id="hThree">Ready to get started?</h3>
             <button class="button--primary" id="myBtn">Get REEL</button>
@@ -46,13 +48,13 @@
                         <p>Or, use another account:</p>
                         <div class="grid-container">
                             <div class="grid-item grid-item--1">
-                                <button class="button">Facebook</button>
+                                <a href="https://www.facebook.com/" target="_blank"><button class="sign-up">Facebook</button></a>
                             </div>
                             <div class="grid-item grid-item--2">
-                                <button class="button">Instagram</button>
+                                <a href="https://www.instagram.com/" target="_blank"><button class="sign-up">Instagram</button></a>
                             </div>
                             <div class="grid-item grid-item--3">
-                                <button class="button">YouTube</button>
+                                <a href="https://www.youtube.com/" target="_blank"><button class="sign-up">YouTube</button></a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +89,7 @@
         <!-- TESTIMONIAL section -->
         <section class="section__testimonial" id="testimonial">
             <div class="text-overlay-container">
-                <img src="images/testimonials_background.png" alt="Background customer photos" class="section__testimonial--backgroundimage" />
+                <img src="images/testimonials_background.png" alt="Background customer photos" class="section__testimonial--backgroundimage" class="tooltip" title="Ask about our loyal customer program!" />
                 <div class="centered">What our customers are saying!</div>
             </div>
             <div class="chip">
@@ -103,7 +105,7 @@
                     </div>
                 </div>
             </div>
-         <!--</div>-->
+            <p>"I have now received 3 shipments and my son absolutely loves watching our family movies! Thank you REEL LIFE!"</p>
             <div class="chip">
                 <div class="chip__avatar">
                     AP
@@ -117,6 +119,7 @@
                     </div>
                 </div>
              </div>
+             <p>"REEL LIFE is so user-friendly and easy to use. I literally post on Instragram and Reel Life puts my videos in the mail everytime I get to 60! No-brainer!"</p>
         </section>
         <!--CONTACT section -->
         <section class="section__contact" id="contact">
@@ -162,6 +165,6 @@
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/modal.js"></script>
         <script type="text/javascript" src="js/smoothscroll.js"></script>
-        <script type="text/javascript" src="js/lightbox.js"></script>
+        <script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
     </body>
 </html>

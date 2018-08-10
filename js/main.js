@@ -29,3 +29,7 @@ $(document).ready(function(){
         'border-bottom': 'solid'
     });
 });
+
+$(document).ready(function() {
+    $('.tooltip').tooltipster();
+});
