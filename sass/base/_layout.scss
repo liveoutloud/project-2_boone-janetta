@@ -120,11 +120,11 @@
 }
 
 .social_icon_container {
-    display: inline-flex;
-    justify-content: space-around;
+    display: inline-block;
 
     &--item {
-        padding: $spacer-s;
+        width: 10%;
+        padding: $spacer-m;
     }
 }
 
