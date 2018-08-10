@@ -15,15 +15,6 @@
     &--modal {
         @extend .input;
         padding: $spacer-xs;
-
-        /*width: 65%;
-        margin: auto;
-        box-sizing: border-box;
-        border: 1px solid $dark;
-        border-radius: 5px;
-        color: $dark;
-        display:block;
-        margin-bottom: $spacer-lg;*/
     }
 
     &__label--modal {
