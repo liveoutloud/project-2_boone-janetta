@@ -126,6 +126,10 @@
         width: 10%;
         padding: $spacer-m;
     }
+
+    @include media($medium) {
+        width: 38%;
+    }
 }
 
 .input__label {

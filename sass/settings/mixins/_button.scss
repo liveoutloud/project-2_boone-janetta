@@ -9,7 +9,11 @@
     color: $font-color;
 
     @include media($medium) {
-        font-size: 24px;
+        font-size: 17px;
+    }
+
+    @include media($extra-large) {
+        font-size: 20px;
     }
 
     &:hover {

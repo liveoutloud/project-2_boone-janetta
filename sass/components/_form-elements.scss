@@ -12,6 +12,10 @@
     display: block;
     margin-bottom: $spacer-lg;
 
+    @include media($medium) {
+        width: 30%;
+    }
+
     &--modal {
         @extend .input;
         padding: $spacer-xs;

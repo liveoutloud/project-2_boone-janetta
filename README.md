@@ -18,6 +18,7 @@
 #### Plug-ins
 - [Smoothscroll](https://css-tricks.com/snippets/jquery/smooth-scrolling/)
 I used Smooth Scroll on my single-scroll site.
+- http://iamceege.github.io/tooltipster/
 
 #### Custom javascript
 - An event listener adds a box to the h3 in the HOME section to highlight the Call To Action when it is moused-over.
