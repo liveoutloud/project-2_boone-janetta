@@ -1,3 +1,5 @@
+//Custom jQuery for submit and reset form validation buttons
+
 $(function(){
   $('.input').keyup(function() {
 
@@ -16,12 +18,14 @@ $(function(){
   });
 })
 
+//Custom event listener calls an h3 by ID and adds a box to highlight the CTA on mouseover
 var hThree = document.getElementById( 'hThree' );
 
 hThree.addEventListener( 'mouseover', function() {
   hThree.className = 'box';
 })
 
+//Custom jQuery adds a border to the h4's by altering the CSS
 $(document).ready(function(){
     var h4 = $("h4");
     h4.css({
@@ -30,6 +34,7 @@ $(document).ready(function(){
     });
 });
 
+//Functionality for Tooltip plug-in:
 $(document).ready(function() {
     $('.tooltip').tooltipster();
 });
